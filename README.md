@@ -1,25 +1,6 @@
 # React Essentials – Portfolio & Movie Explorer Mini Projects
 
 **TuteDude – 01 – Portfolio & Movie Explorer Mini Projects**  
-Instructor: Vipin Kushwaha  
-
----
-
-## 📖 Introduction
-
-This assignment helps students build a strong foundation in React by developing two practical mini projects. Through these projects, learners apply essential React concepts including:
-
-- JSX Syntax  
-- Component-Based Architecture  
-- Props (Passing & Rendering Data)  
-- Event Handling  
-- State Management  
-- Conditional Rendering  
-- Rendering Dynamic Lists  
-
-These mini projects cover the core topics from **Module 2: React Essentials (6h 45m)** and provide structured, hands-on practice in building interactive user interfaces.
-
----
 
 # 🅰️ PART A — Portfolio Card Application
 
