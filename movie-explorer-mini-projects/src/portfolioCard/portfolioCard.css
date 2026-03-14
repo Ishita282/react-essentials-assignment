@@ -1,0 +1,141 @@
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+body.light-mode {
+  background-color: rgb(217, 217, 217);
+  color: #000000;
+}
+
+.toggle-theme {
+  position: absolute;
+  top: 20px;
+  right: 30%;
+  background-color: #abbdd0;
+  color: rgb(35, 35, 35);
+  width: auto;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.profile-section {
+  background-color: white;
+  border-radius: 10px;
+  margin: 100px auto 0;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  background-color: white;
+  justify-content: left;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.name-section {
+  text-align: left;
+  background-color: white;
+}
+
+.name-section h2,
+.name-section p {
+  background-color: white;
+  text-align: left;
+}
+
+.profile-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.bio-section {
+  text-align: left;
+}
+
+.skills-section h4 {
+  text-align: left;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  color: #a2a2a2;
+}
+
+.skills-section {
+  text-align: left;
+}
+
+.skill-badge {
+  display: inline-block;
+  background-color: #c5cded;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9em;
+  margin: 8px 8px 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-badge:hover {
+  background-color: #8ca0f3;
+  color: #3e3838;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.prev, .next{
+  border: none;
+  background-color: transparent;
+  margin: 25px;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+}
+
+.page-number{
+  font-size: 17px;
+  color: rgb(103, 103, 103);
+  margin: 20px;
+  
+}
+
+.theme {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+.Likes-section {
+  border: none;
+  background: transparent;
+  font-size: 17px;
+}
+
+.contact-section {
+  border: none;
+  background-color: rgb(71, 141, 245);
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 90px;
+  border-radius: 10px;
+}

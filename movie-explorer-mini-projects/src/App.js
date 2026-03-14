@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
-import MovieExplorer from "./components/movieCard.js";
+import PortfolioCard from "./portfolioCard/portfolioCard.js";
+import MovieCard from "./movieCard/movieCard.js";
 
 function App() {
 
   return (
     <div className="App">
-      <MovieExplorer />
+      <PortfolioCard />
+      <MovieCard />
     </div>
   );
 }

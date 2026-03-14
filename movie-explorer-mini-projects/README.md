@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# React Essentials – Portfolio & Movie Explorer Mini Projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**TuteDude – 01 – Portfolio & Movie Explorer Mini Projects**  
 
-## Available Scripts
+# 🅰️ PART A — Portfolio Card Application
 
-In the project directory, you can run:
+This project focuses on building a personal profile card using reusable React components and interactive features.
 
-### `npm start`
+## 🔹 A1: Component Structure & JSX
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Create a structured Portfolio Card layout using separate components.  
+- Include:
+  - Profile Image  
+  - Name  
+  - Title  
+  - Bio  
+  - Skills Section  
+- Maintain clean and reusable component design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔹 A2: Dynamic Content Using Props
 
-### `npm test`
+- Convert static skills into dynamic props.  
+- Render skill badges using prop-based data.  
+- Practice passing data from parent to child components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔹 A3: Interactivity Using Event Handling
 
-### `npm run build`
+Add interactive buttons for:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Theme switching (Light/Dark mode)  
+- Profile image change  
+- Displaying alert messages  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔹 A4: State Management (Likes Feature)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Implement a Like Counter using React state.  
+- Update the UI dynamically based on user interaction.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🎬 PART B — Movie Database Mini Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project introduces search functionality, filtering logic, and conditional rendering.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔹 B1: Search Input with State
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Create a search bar connected to component state.  
+- Update results dynamically based on user input.  
+- Add input reset functionality.
 
-## Learn More
+## 🔹 B2: Movie Filtering Logic
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Use local movie data.  
+- Filter movies dynamically based on search queries.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔹 B3: Conditional Rendering
 
-### Code Splitting
+Display different UI states for:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- No search input  
+- No matching results  
+- Matching results found  
 
-### Analyzing the Bundle Size
+## 🔹 B4: Favourite Toggle Feature
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Add a Favourite/Unfavourite button to each movie card.  
+- Store favourite status using React state.
 
-### Making a Progressive Web App
+## 🔹 B5: Display Favourite Movies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Extract favourited movies.  
+- Show them in a separate **“Favourite Movies”** section.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🛠️ Tech Stack
 
-### Deployment
+- React  
+- JavaScript (ES6+)  
+- CSS  
+- Node.js  
+- npm  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## ⚙️ Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/react-essentials-assignment.git 
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the project:
+```bash
+npm start
+```
